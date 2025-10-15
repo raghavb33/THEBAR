@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bajaj's Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #1a0f00;
+            background-image: linear-gradient(180deg, #0a0400 0%, #3b1e00 100%);
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header img {
+            width: 60px;
+            margin-bottom: -10px;
+        }
+        
+        h1 {
+            font-family: 'Cinzel Decorative', cursive;
+            color: #FFD700;
+            font-size: 2.8em;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+
+        .tagline {
+            color: #ff9933;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .warning {
+            background-color: rgba(255, 153, 51, 0.1);
+            border: 1px solid #ff9933;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 25px 0;
+            font-style: italic;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.1em;
+            margin: 40px 10px;
+            padding-left: 15px;
+            border-left: 3px solid #FFD700;
+            text-align: left;
+            color: #e0e0e0;
+        }
+
+        .menu h2 {
+            font-family: 'Cinzel Decorative', cursive;
+            color: #ff9933;
+            font-size: 2em;
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .menu-item, .menu-category {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid #FFD700;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .menu-item img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+        }
+
+        .menu-item h3, .menu-category h3 {
+            color: #ff9933;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        
+        .menu-item p {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .mixers-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .mixers-list li {
+            background-color: #FFD700;
+            color: #1a0f00;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ff9933;
+            font-size: 1.1em;
+        }
+
+        .contact {
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+
+        .contact strong {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <img src="https://i.ibb.co/6P9V1N8/diya.png" alt="Diwali Diya">
+            <h1>Welcome to The Bajaj's Bar</h1>
+            <p class="tagline">Happy Dhanteras!</p>
+            <p class="warning">
+                <strong>Note:</strong> This place may cause blurry nights and an irrational confidence to lose your money in the next card game. Please drink responsibly.
+            </p>
+        </header>
+
+        <div class="quote">
+            "For a moment, nothing else matters. It's just us, the stars, and the quiet hum of the universe."
+        </div>
+
+        <div class="menu">
+            <h2>Tonight's Selections</h2>
+
+            <div class="menu-item">
+                <h3>The Spirit</h3>
+                <img src="https://i.ibb.co/f49b5W4/greater-than-gin.png" alt="Bottle of Greater Than Gin">
+                <p>Gin: Greater Than</p>
+            </div>
+
+            <div class="menu-item">
+                <h3>The Brew</h3>
+                <img src="https://i.ibb.co/fM86B52/budweiser-beer.png" alt="Bottle of Budweiser Beer">
+                <p>Beer: Budweiser</p>
+            </div>
+
+            <div class="menu-category">
+                <h3>The Companions (Mixers)</h3>
+                <ul class="mixers-list">
+                    <li>Coke</li>
+                    <li>Tonic Water</li>
+                    <li>Soda</li>
+                    <li>Ginger Ale</li>
+                    <li>Red Bull</li>
+                    <li>Juices</li>
+                    <li>Water</li>
+                    <li>Ice</li>
+                </ul>
+            </div>
+            
+            <div class="menu-item">
+                <h3>The Teetotaler's Treasure</h3>
+                <img src="https://i.ibb.co/3Wf2W3h/green-apple-punch.png" alt="A glass of green apple punch mocktail">
+                <p>Mocktail: Starlit Apple Spritz</p>
+            </div>
+        </div>
+
+        <div class="quote">
+            "We are all wanderers on this earth. Our hearts are full of wonder, and our souls are deep with dreams under the open sky."
+        </div>
+
+        <footer>
+            <p>This is a self-service bar. Mix, mingle, and enjoy your night to the fullest!</p>
+            <p class="contact">
+                For any assistance or extra requirements, please contact:<br>
+                <strong>Raghav - 7408008448</strong>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
